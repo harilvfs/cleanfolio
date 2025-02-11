@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'PXLR.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Hari Chalise',
+  role: 'Linux Enthusiast',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'I am a Linux enthusiast specializing in Bash scripting and passionate about open source. I have been actively contributing to the Linux community for over a year particularly within the Arch Linux ecosystem where I focus on creating efficient and customized solutions.My tech journey began with a fascination for Linux leading me to explore system management and kernel customization. I am proficient in Bash scripting and excited by the potential for building secure and efficient systems. ',
+  works: 'https://github.com/harilvfs/carch',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    reddit: 'https://reddit.com/u/aayush-le',
+    github: 'https://github.com/harilvfs',
   },
 }
 
@@ -21,51 +21,46 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Carch',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An automated script for quick & easy Linux system setup (Arch & Fedora) 🧩',
+    stack: ['Bash', 'Shell'],
+    sourceCode: 'https://github.com/carch',
+    livePreview: 'https://github.com/carch',
   },
   {
-    name: 'Project 2',
+    name: 'Arch-Wiki',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'ArchWiki - OCD Edition',
+    stack: ['Vue', 'TypeScript', 'Markdown'],
+    sourceCode: 'https://github.com/harilvfs/Arch-Wiki',
+    livePreview: 'https://github.com/Arch-Wiki',
   },
   {
-    name: 'Project 3',
+    name: 'Dwm',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'DWM patches with my custom config 🛠️',
+    stack: ['Shell', 'Roff', 'C', 'Lua'],
+    sourceCode: 'https://github.com/harilvfs/dwm',
+    livePreview: 'https://github.com/harilvfs/dwm',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
+  'Shell',
+  'C',
   'Material UI',
+  'Photoshop',
   'Git',
+  'Linux',
   'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'harilvfs@chalisehari.com.np',
 }
 
 export { header, about, projects, skills, contact }
