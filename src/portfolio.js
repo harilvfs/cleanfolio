@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://harilvfs.github.io/cleanfolio',
+  homepage: '.',
   title: 'PXLR.',
 }
 
